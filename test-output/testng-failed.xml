@@ -3,12 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.Demo">
+      <class name="com.testing.Annotationstesting">
         <methods>
-          <include name="tearDown"/>
-          <include name="registerUser"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuit"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="loginTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.testing.Demo -->
+      </class> <!-- com.testing.Annotationstesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
