@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+parameters: { browserName: Chrome, url: https://demowebshop.tricentis.com }
+tests:
+  - name: Test
+  classes:
+    - day22.Parameters_demo
+
