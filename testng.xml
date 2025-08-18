@@ -3,7 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testing.Demo"/>
+      <class name="day23.IgnoreTestCases">
+        <methods>
+          <exclude name="employeeSearch"/>
+          <include name="logOut"/>
+          <include name="loginTest"/>
+        </methods>
+      </class>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+</suite>

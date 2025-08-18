@@ -3,19 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.Annotationstesting">
+      <class name="day23.TestGroups">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuit"/>
-          <include name="beforeTest"/>
-          <include name="afterSuite"/>
-          <include name="loginTest"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
+          <include name="searchProduct"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.testing.Annotationstesting -->
+      </class> <!-- day23.TestGroups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
