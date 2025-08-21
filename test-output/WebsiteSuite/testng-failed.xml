@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebsiteSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DependsOnGroupsTest(failed)">
+    <classes>
+      <class name="day22.DependsOnMethods_ex">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickLoginLink"/>
+          <include name="openHomePage"/>
+          <include name="enterLoginDetails"/>
+          <include name="tearDown"/>
+          <include name="clickLogin"/>
+          <include name="verifyLoginSuccess"/>
+        </methods>
+      </class> <!-- day22.DependsOnMethods_ex -->
+    </classes>
+  </test> <!-- DependsOnGroupsTest(failed) -->
+</suite> <!-- Failed suite [WebsiteSuite] -->

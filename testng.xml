@@ -1,15 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="day23.IgnoreTestCases">
-        <methods>
-          <exclude name="employeeSearch"/>
-          <include name="logOut"/>
-          <include name="loginTest"/>
-        </methods>
-      </class>
-    </classes>
-  </test>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WebsiteSuite">
+    <test name="DependsOnGroupsTest">
+        <classes>
+            <class name="day22.DependsOnMethods_ex"/>
+        </classes>
+    </test>
 </suite>
